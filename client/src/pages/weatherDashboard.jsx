@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-// need day.jsx in components import here
 
+import { useEffect, useState } from 'react';
+import Day from '../components/Day';
 
 const dayList = () => {
     const [data, setData] = useState();
