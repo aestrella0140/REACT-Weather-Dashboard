@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from 'react';
-import Day from '../components/Day';
+import Day from '../components/weather/Day';
 
 const dayList = () => {
     const [data, setData] = useState();
