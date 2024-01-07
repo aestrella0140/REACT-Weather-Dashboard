@@ -3,8 +3,8 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom/dist';
 // index.css needs to import here
 
-import login from './pages/Login.jsx';
-import signup from './pages/Signup.jsx';
+import Login from './pages/Login.jsx';
+import Signup from './pages/Signup.jsx';
 import weatherDashboard from './pages/weatherDashboard.jsx';
 
 const router = createBrowserRouter([
@@ -13,14 +13,19 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        // need homepage here 
+        index: true,
+        element: <Login />
+      }, {
+        path: '/Signup',
+        element: <Signup />
+      }, {
+        path: '/weatherDashboard', 
+        element: <weatherDashboard />
       }
     ]
   }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <RouterProvider router={router} />
 )
