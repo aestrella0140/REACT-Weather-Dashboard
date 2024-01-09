@@ -1,4 +1,4 @@
-import * as jwtDecode from 'jwt-decode';
+import decode from 'jwt-decode';
 
 class AuthService {
     getUser() {
@@ -25,6 +25,7 @@ class AuthService {
 
     login(idToken) {
         localStorage.setItem('id_token', idToken);
+        window.location.assign('/');
     }
 
     logout() {

@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import Day from '../components/weather/Day';
 
-const dayList = () => {
+const weatherDashboard = () => {
     const [data, setData] = useState();
 
     useEffect(() => {
@@ -22,4 +22,4 @@ const dayList = () => {
     );
 }
 
-export default dayList;
+export default weatherDashboard;
