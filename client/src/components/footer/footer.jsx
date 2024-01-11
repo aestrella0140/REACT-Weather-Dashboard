@@ -1,6 +1,6 @@
 import React from "react";
 // want a link to linkin github need a vision page and contact page about me component
-const footer = () => {
+const Footer = () => {
     return (
         <footer>
             <div>
@@ -8,12 +8,10 @@ const footer = () => {
                     My Media
                 </h1>
                 <ul>
-                    <li>
-                        GitHub 
+                    <li> 
                         <a href="https://github.com/aestrella0140">GitHub</a>
                     </li>
                     <li>
-                        LinkedIn 
                         <a href="https://www.linkedin.com/in/adrian-estrella-7a91b42a2/">LinkedIn</a>
                     </li>
                 </ul>
@@ -32,4 +30,4 @@ const footer = () => {
     );
 };
 
-export default footer;
+export default Footer;
