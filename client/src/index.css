@@ -2,7 +2,14 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+/*header*/
+.hd-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  position: relative;
+}
 
 /*footer*/
 footer {
@@ -19,7 +26,7 @@ footer {
   margin: 40px;
 }
 
-ul {
+.ft-list {
 list-style: none;
 display: inline;
 }

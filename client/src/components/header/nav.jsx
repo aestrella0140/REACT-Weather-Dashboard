@@ -6,7 +6,7 @@ function Nav() {
     function showNav() {
         if (Auth.loggedIn()) {
             return (
-                <ul>
+                <ul className='hd-nav'>
                     <li>
                         <Link to='/weatherDashboard'>
                             Weather Dashboard
@@ -21,7 +21,7 @@ function Nav() {
             );
         } else {
             return (
-                <ul>
+                <ul className='hd-nav'>
                     <li>
                         <Link to='/Signup'>
                             Signup

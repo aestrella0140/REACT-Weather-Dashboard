@@ -7,7 +7,7 @@ const Footer = () => {
                 <h1>
                     My Media
                 </h1>
-                <ul>
+                <ul className="ft-list">
                     <li> 
                         <a href="https://github.com/aestrella0140">GitHub</a>
                     </li>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <h1>
                     Contact
                 </h1>
-                <ul>
+                <ul className="ft-list">
                     <li>
                         Email: astarfirstborn@hotmail.com
                     </li>
