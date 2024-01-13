@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom/dist';
-// index.css needs to import here
+import './index.css';
 
 import Login from './pages/Login.jsx';
 import Signup from './pages/Signup.jsx';
