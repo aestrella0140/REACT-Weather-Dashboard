@@ -3,12 +3,27 @@
 }
 
 /*header*/
-.hd-nav {
+.nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
+  gap: 1400px;
   list-style: none;
   position: relative;
+  margin-top: 15px;
+  background-color: #2b4353;
+ 
+}
+
+.text {
+  color: #ffffff;
+}
+
+.hd-nav {
+  display: flex;
+  list-style: none;
+  position: relative;
+  margin-top: 36px;
 }
 
 /*footer*/
