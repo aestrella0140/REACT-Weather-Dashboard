@@ -27,7 +27,7 @@ function Nav() {
                 <div className='nav'>
                     <ul className='hd-nav'>
                         <li>
-                            <Link to='/Signup' className='text'>
+                            <Link to='/Signup' className='text link'>
                                 Signup
                             </Link>
                         </li>

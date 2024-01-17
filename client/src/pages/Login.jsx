@@ -37,7 +37,7 @@ const Login = (props) => {
     };
 
     return (
-        <div>
+        <div className='login'>
             <form onSubmit={handleFormSubmit}>
                 <label htmlFor="email">Email:</label>
                 <input
