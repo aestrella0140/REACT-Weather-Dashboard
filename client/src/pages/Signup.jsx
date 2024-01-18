@@ -37,7 +37,7 @@ const Signup = () => {
     };
 
     return (
-        <div>
+        <div className='sign'>
             <form onSubmit={handleFormSubmit}>
                 <label htmlFor="firstName">First Name:</label>
                 <input
@@ -50,12 +50,12 @@ const Signup = () => {
                  <label htmlFor="lastName">Last Name:</label>
                  <input 
                  type="lastName"
-                 name='firstName'
-                 id='firstName'
+                 name='lastName'
+                 id='lastName'
                  placeholder='last name here'
                  onChange={handleChange}
                  />
-                 <label htmlFor="email"></label>
+                 <label htmlFor="email">Email</label>
                  <input
                   type="email" 
                   name="email" 

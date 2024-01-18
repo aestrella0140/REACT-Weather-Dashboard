@@ -55,12 +55,14 @@ display: inline;
   justify-content: center;
   margin-top: 80px;
   margin-left: 500px;
-  width: 800px;
+  height: 300px;
+  width: 700px;
   border-style: groove;
   background-color: #b6e1e0;
 }
 
 button {
+  margin-top: 50px;
   margin-left: 135px;
   border-radius: 35px;
   height: 35px;
@@ -80,6 +82,15 @@ input {
   height: 30px;
   width: 350px;
   margin: 5px;
+}
+
+/*signup page*/
+.sign {
+  border-style: groove;
+  margin-top: 50px;
+  margin-left: 650px;
+  width: 420px;
+  background-color: #b6e1e0;
 }
 
 @media (prefers-color-scheme: light) {
