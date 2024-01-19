@@ -49,7 +49,7 @@ const Signup = () => {
                  />
                  <label htmlFor="lastName">Last Name:</label>
                  <input 
-                 type="lastName"
+                 type='lastName'
                  name='lastName'
                  id='lastName'
                  placeholder='last name here'

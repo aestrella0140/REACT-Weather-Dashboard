@@ -3,7 +3,7 @@ const { GraphQLError } = require('graphql');
 const jwt = require('jsonwebtoken');
 //  used to sign and verify JWTs. The secret ensures that the token is not tampered with after it is issued.
 const secret = 'imbatman';
-const expiration = '2hr';
+const expiration = '2h';
 
 module.exports = {
     AuthenticationError: new GraphQLError('Couldnt authenticate user.', {
@@ -31,8 +31,8 @@ module.exports = {
 
         return req;
     },
-    signToken: function({ name, email, _id }) {
-        const payload = { name, email, _id };
+    signToken: function({ firstName, email, _id }) {
+        const payload = {  firstName, email, _id };
 
         return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
     },

@@ -5,8 +5,6 @@ mutation Mutation($firstName: String!, $lastName: String!, $email: String!, $pas
     addUser(firstName: $firstName, lastName: $lastName, email: $email, password: $password) {
       user {
         _id
-        firstName
-        lastName
       }
     }
   }
@@ -18,8 +16,6 @@ mutation Mutation($email: String!, $password: String!) {
       token
       user {
         _id
-        firstName
-        lastName
       }
     }
   }
