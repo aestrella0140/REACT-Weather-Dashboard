@@ -5,7 +5,7 @@ import './index.css';
 
 import Login from './pages/Login.jsx';
 import Signup from './pages/Signup.jsx';
-import weatherDashboard from './pages/weatherDashboard.jsx';
+import Weather from './pages/weatherDashboard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         element: <Signup />
       }, {
         path: '/weatherDashboard', 
-        element: <weatherDashboard />
+        element: <Weather />
       }
     ]
   }
